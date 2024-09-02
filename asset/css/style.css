@@ -1,7 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: "Bebas Neue", sans-serif;
+    height: 5000px;
 
 }
 .fontsan{
     font-family: "Pacifico", cursive;
 }
+/* start header */
+header{
+    background: linear-gradient(rgba(0, 0, 0, 0.478), rgba(10, 10, 10, 0.57)) , url(../image/main.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.header_box{
+    width: 85%;
+    margin: 0 auto;
+    
+}
+.header_box h3{
+    color: #fff;
+
+}
+.header_title{
+    color: #ffb91a;
+    font-size: 40px;
+}
+.header_title1{
+    font-size: 90px;
+    margin: 40px 0;
+    line-height: 90px;
+    
+}
+
+
+
+
+
+
+/* end header */
