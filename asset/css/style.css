@@ -25,7 +25,7 @@ header{
     margin: 0 auto;
 }
 .header_box h3{
-    color: #fffffff0;
+    color: #fffffff9;
 }
 .header_title{
     color: #ffb91a;
@@ -35,6 +35,7 @@ header{
     font-size: 95px;
     margin: 50px 0;
     line-height: 110px;
+    letter-spacing: 1px;
 }
 .btn_header{
     background-color: #a5141a;
