@@ -12,7 +12,7 @@ body{
 }
 /* start header */
 header{
-    background: linear-gradient(rgba(0, 0, 0, 0.359), rgba(10, 10, 10, 0.441)) , url(../image/main.jpg);
+    background: linear-gradient(#00000042,#0000008a) , url(../image/main.jpg);
     background-size: cover;
     background-position: center;
     height: 700px;
@@ -29,10 +29,10 @@ header{
 }
 .header_title{
     color: #ffb91a;
-    font-size: 40px;
+    font-size: 35px;
 }
 .header_title1{
-    font-size: 90px;
+    font-size: 95px;
     margin: 50px 0;
     line-height: 110px;
 }
