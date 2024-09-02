@@ -25,8 +25,7 @@ header{
     margin: 0 auto;
 }
 .header_box h3{
-    color: #fff;
-
+    color: #fffffff0;
 }
 .header_title{
     color: #ffb91a;
@@ -34,24 +33,18 @@ header{
 }
 .header_title1{
     font-size: 90px;
-    margin: 55px 0;
-    line-height: 90px;
+    margin: 50px 0;
+    line-height: 110px;
 }
 .btn_header{
     background-color: #a5141a;
     text-decoration: none;
-    color: white;
-    padding: 15px 35px;
+    color: rgb(255, 255, 255);
+    padding: 15px 40px;
     border-radius: 7px;
     transition-duration: 0.5s;
 }
 .btn_header:hover{
     background-color: #ffb91a;
 }
-
-
-
-
-
-
 /* end header */
