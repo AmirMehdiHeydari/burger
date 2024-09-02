@@ -48,3 +48,37 @@ header{
     background-color: #ffb91a;
 }
 /* end header */
+/* start product */
+.product{
+    padding: 100px 0;
+}
+.product_box{
+    width: 85%;
+    margin: 0 auto;
+}
+.product_itmes{
+    display: flex;
+    justify-content: space-between;
+}
+.product_itme{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 35px 23px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    transition-duration: 0.5s;
+}
+.product_itmes img{
+    width: 100px;
+}
+.product_itmes span{
+    margin-top: 30px;
+    font-size: 20px;
+}
+.product_itme:hover{
+    border-color: #f5e904;
+}
+/* end product */
