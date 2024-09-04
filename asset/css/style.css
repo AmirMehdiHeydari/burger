@@ -148,3 +148,47 @@ header{
     margin-bottom: 30px;
 }
 /* end offer */
+/* start about */
+.about{
+    padding: 150px 0;
+}
+.about_box{
+    
+    width: 85%;
+    margin: 0 auto;
+}
+.about_items{
+    display: flex;
+    justify-content: space-between;
+}
+.about_item_image{
+    width: 70%;
+}
+.about_item_text{
+    width: 30%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: start;
+   padding: 0 70px;
+}
+.about_item_text h3{
+    color: #a5141a;
+    font-size: 27px;
+    padding: 10px 0;
+}
+.about_item_text h2{
+    color: black;
+    font-size: 45px;
+    letter-spacing: 2px;
+    padding: 10px 0;
+    width: 100%;
+}
+.about_item_text p{
+    color: #6b6b6b;
+    margin: 20px 0;
+    letter-spacing: 1px;
+    width: 100%;
+    font-size: 15px;
+}
+/* end about */
