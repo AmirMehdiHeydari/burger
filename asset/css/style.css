@@ -100,36 +100,43 @@ header{
     justify-content: space-between;
 }
 .offer_itme_left{
-    background-image: linear-gradient(#00000082, #00000082) ,url(../image/special-01.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 39%;
-    border-radius: 10px;
-    padding: 130px 65px;
+    background-color: #a5141a;
+    width: 49%;
 }
 .offer_itme_right{
     background-color: green;
     width: 49%;
 }
-.offer_itme_left h3{
-    font-size: 40px;
-    letter-spacing: 2px;
+.offer_item{
+    background-image:  linear-gradient(#00000082,#00000082),url(../image/special-01.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 130px 40px;
+    border-radius: 15px;
+  
+}
+.offer_item h3{
+    font-size: 50px;
+   letter-spacing: 2px;
     width: 40%;
+
 }
-.offer_itme_left p{
-    font-size: 15px;
+.offer_item p{
+    font-size: 14px;
     letter-spacing: 2px;
-    color: rgba(255, 255, 255, 0.849);
+    color: rgba(255, 255, 255, 0.641);
+    width: 65%;
     padding: 10px 0;
-    width: 75%;
 }
-.offer_itme_left span{
+.offer_item span{
     color: #e0bb16;
-    font-size: 25px;
-    display: block;
+    font-size: 20px;display: block;
     padding: 10px 0;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
+
+
+
 
 
 /* end offer */
