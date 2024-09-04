@@ -170,7 +170,7 @@ header{
    flex-direction: column;
    justify-content: center;
    align-items: start;
-   padding: 0 70px;
+   padding: 70px;
 }
 .about_item_text h3{
     color: #a5141a;
