@@ -114,7 +114,6 @@ header{
     background-position: center;
     padding: 120px 40px;
     border-radius: 15px;
-  
 }
 .offer_item_card{
     padding: 20px 40px;
@@ -127,16 +126,13 @@ header{
     background-size: cover;
     background-position: center;
 }
-
 .offer_item_card span{
     margin-bottom: 10px;
 }
-
 .offer_item h3{
     font-size: 50px;
    letter-spacing: 2px;
     width: 40%;
-
 }
 .offer_item p{
     font-size: 14px;
@@ -151,9 +147,4 @@ header{
     padding: 10px 0;
     margin-bottom: 30px;
 }
-
-
-
-
-
 /* end offer */
