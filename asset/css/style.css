@@ -100,21 +100,38 @@ header{
     justify-content: space-between;
 }
 .offer_itme_left{
-    background-color: #a5141a;
     width: 49%;
 }
 .offer_itme_right{
-    background-color: green;
     width: 49%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .offer_item{
     background-image:  linear-gradient(#00000082,#00000082),url(../image/special-01.jpg);
     background-size: cover;
     background-position: center;
-    padding: 130px 40px;
+    padding: 120px 40px;
     border-radius: 15px;
   
 }
+.offer_item_card{
+    padding: 20px 40px;
+    background-image:linear-gradient(#00000082,#00000082) ,url(../image/special-02.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.box_image{
+    background-image:linear-gradient(#00000082,#00000082), url(../image/br.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.offer_item_card span{
+    margin-bottom: 10px;
+}
+
 .offer_item h3{
     font-size: 50px;
    letter-spacing: 2px;
