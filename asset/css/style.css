@@ -222,36 +222,36 @@ header{
 /* end Deliver */
 /* start achivement */
 .achivement{
-    background-color: red;
-    padding: 50px 0;
+    background-color: #ffb91a;
 }
 .achivement_box{
-    background-color: #e0bb16;
     width: 85%;
     margin: 0 auto;
 }
 .achivement_itmes{
-    background-color: green;
     display: flex;
     margin: 0 auto;
     justify-content: space-between;
     color: white;
-    
-    
-    
-
 }
 .achivement_itme{
-    background-color: rgb(192, 79, 23); 
     width: 29%;
-    padding: 40px 0;
+    padding: 15px 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     font-size: 30px;
+}
+.achivement_itme h3{
+    font-size: 50px;
+    color: #fff;
+    margin: 10px 0;
+    letter-spacing: 2px; 
+}
+.achivement_itme p{
+    font-size: 18px;
+    color: #fff;
     letter-spacing: 1px;
-    
-   
 }
 /* end achivement */
