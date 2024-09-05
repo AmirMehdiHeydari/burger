@@ -229,13 +229,14 @@ header{
     margin: 0 auto;
 }
 .achivement_itmes{
+    background-color: #ffb91a;
     display: flex;
     margin: 0 auto;
     justify-content: space-between;
     color: white;
 }
 .achivement_itme{
-    width: 29%;
+    width: 30%;
     padding: 15px 0;
     display: flex;
     flex-direction: column;
