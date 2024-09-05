@@ -258,18 +258,15 @@ header{
 /* end achivement */
 /* start dish */
 .dish{
-    background-color: red;
-    padding: 150px 0;
+    padding: 110px 0;
 }
-.dish_box{
-    
+.dish_box{ 
     width: 85%;
     margin: 0 auto;
 }
 .dish_items{
     display: flex;
     justify-content: space-between;
-    
 }
 .dish_item_text{
    display: flex;
@@ -282,10 +279,27 @@ header{
     width: 630px;
 }
 .dish_item_red{
-    background-color: green;
-   width: 48%;
-   border-radius: 10px;
-
+    background-color: #a5141a;
+    width: 41%;
+    border-radius: 15px;
+    color: #ffffff;
+    padding: 60px 50px;
 }
-
+.dish_item_red h2{
+    font-size: 50px;
+    letter-spacing: 1px;
+}
+.dish_text{
+    padding: 15px 0;
+}
+.dish_text h3{
+    font-size: 25px;
+   letter-spacing: 2px;
+}
+.dish_text p{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.71);
+    padding: 10px 0;
+    letter-spacing: 1px;
+}
 /* end dish */
