@@ -256,3 +256,36 @@ header{
     letter-spacing: 1px;
 }
 /* end achivement */
+/* start dish */
+.dish{
+    background-color: red;
+    padding: 150px 0;
+}
+.dish_box{
+    
+    width: 85%;
+    margin: 0 auto;
+}
+.dish_items{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.dish_item_text{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: start;
+   padding: 70px 0;
+}
+.dish_item_text img{
+    width: 630px;
+}
+.dish_item_red{
+    background-color: green;
+   width: 48%;
+   border-radius: 10px;
+
+}
+
+/* end dish */
