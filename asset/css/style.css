@@ -192,3 +192,13 @@ header{
     font-size: 15px;
 }
 /* end about */
+/* start Deliver */
+.Deliver{
+    background-color: red;
+    padding: 120px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* end Deliver */
