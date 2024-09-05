@@ -220,3 +220,38 @@ header{
     
 }
 /* end Deliver */
+/* start achivement */
+.achivement{
+    background-color: red;
+    padding: 50px 0;
+}
+.achivement_box{
+    background-color: #e0bb16;
+    width: 85%;
+    margin: 0 auto;
+}
+.achivement_itmes{
+    background-color: green;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    color: white;
+    
+    
+    
+
+}
+.achivement_itme{
+    background-color: rgb(192, 79, 23); 
+    width: 29%;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    letter-spacing: 1px;
+    
+   
+}
+/* end achivement */
