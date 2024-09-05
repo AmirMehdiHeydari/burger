@@ -194,11 +194,29 @@ header{
 /* end about */
 /* start Deliver */
 .Deliver{
-    background-color: red;
-    padding: 120px 0;
+    background-image: linear-gradient(#0000001d,rgba(0, 0, 0, 0.2)) ,url(../image/delivery.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+}
+.Deliver h3{
+    color: #a5141a;
+    font-size: 24px;
+    line-height: 50px;
+    letter-spacing: 1px;
+  
+}
+.Deliver h2 {
+   font-size: 100px;
+   color: #fff;
+   letter-spacing: 4px;
+   width: 50%;
+   text-align: center;
+   margin-bottom: 50px;
+    
 }
 /* end Deliver */
