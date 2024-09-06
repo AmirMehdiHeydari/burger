@@ -506,6 +506,8 @@ header{
 .free_items{
     display: flex;
     justify-content: space-between;
+    margin-right: 250px;
+    
 }
 .free_item_text{
    display: flex;
@@ -525,7 +527,7 @@ header{
 .free_item_red h2{
     font-size: 50px;
     letter-spacing: 1px;
-    width: 80%;
+    width: 110%;
     padding: 15px 0;
 }
 .free_text{
@@ -541,7 +543,8 @@ header{
 .free_item_red p{
     font-size: 15px;
     color: #6b6b6b;
-
+    line-height: 30px;
     letter-spacing: 1px;
+    width: 130%;
 }
 /* end free */
