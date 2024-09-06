@@ -548,3 +548,33 @@ header{
     width: 130%;
 }
 /* end free */
+/* start best */
+.best{
+    background-color: #a5141a;
+    padding: 40px 0;
+}
+.best_box{
+    width: 85%;
+    margin: 0 auto;
+}
+.best_itmes{
+    display: flex;
+    justify-content: space-between;
+}
+.best_itme_text{
+    width: 49%;
+}
+.best_itme_text h3{
+    font-size: 25px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+.best_itme_tag a{
+    background-color: #ffb91a;
+}
+.best_itme_tag :hover{
+    background-color: white;
+    color: black;
+}
+
+/* end best */
