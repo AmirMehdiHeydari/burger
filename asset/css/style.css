@@ -336,37 +336,44 @@ header{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap; 
+    
 }
 .today_item_div{
     background-color: #fff;
-    box-shadow: rgba(149, 157, 165, .2) 0 8px 24px;
+    box-shadow: rgba(149, 157, 165, .2) 24px 24px;
     border-radius: 15px;
     width: 49%;
     padding: 25px 0;
     margin-top: 20px;
     display: flex;
+    border: 1px solid transparent;
+    transition-duration: 0.5s;
+    
 }
-.today_item_div_img img{
+.today_item_div:hover{
+    border-color: yellow;
+}
+.today_item_img img{
    width: 220px;
-   padding: 0 30px;
+   padding: 0 20px;
 }
-.today_item_div_text{
+.today_item_text{
     padding: 10px 70px;
 }
-.today_item_div_text h3{
+.today_item_text h3{
     color: #383838;
     font-size: 25px;
     padding: 10px 0;
     letter-spacing: 1px;
     width: 110%;
 }
-.today_item_div_text h2{
+.today_item_text h2{
     color: #a5141a;
     font-size: 20px;
     letter-spacing: 1px;
     padding: 10px 0;
 }
-.today_item_div_text p{
+.today_item_text p{
     color: #6b6b6b;
     font-size: 15px;
     letter-spacing: 1px;
@@ -374,7 +381,7 @@ header{
     padding: 5px 0;
     width: 90%;
 }
-.today_item_div_text a{
+.today_item_text a{
     text-decoration: none;
     color: #383838;
     font-size: 19px;
