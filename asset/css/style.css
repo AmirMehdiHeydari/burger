@@ -42,6 +42,7 @@ header{
     text-decoration: none;
     color: rgb(255, 255, 255);
     padding: 15px 40px;
+    letter-spacing: 1px;
     border-radius: 7px;
     transition-duration: 0.5s;
 }
@@ -386,3 +387,30 @@ header{
     letter-spacing: 1px;
 }
 /* end today */
+/* start favorite */
+.favorite{
+    background-image: linear-gradient(#00000042, #0000008a) ,url(../image/fav-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 120px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.favorite h3{
+    color: #a5141a;
+    font-size: 27px;
+    line-height: 50px;
+    letter-spacing: 1px;
+    padding: 10px 0;
+}
+.favorite h2 {
+   font-size: 100px;
+   color: #fff;
+   letter-spacing: 4px;
+   width: 80%;
+   text-align: center;
+   margin-bottom: 50px;
+}
+/* end favorite */
