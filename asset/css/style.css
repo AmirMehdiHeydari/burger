@@ -455,38 +455,28 @@ header{
     box-shadow: rgba(149, 157, 165, .2) 0 8px 24px;
     border-radius: 15px;
     width: 49%;
-    padding: 25px 0;
+    padding: 25px 0px;
     margin-top: 20px;
-    display: flex;
+    
+    
 }
 
 .Customers_item_div_img img{
-   width: 220px;
-   padding: 0 30px;
+   width: 120px;
+   padding: 0 220px;
+   
 }
 .Customers_item_div_text{
-    padding: 10px 70px;
-}
-.Customers_item_div_text h3{
-    color: #383838;
-    font-size: 25px;
-    padding: 10px 0;
-    letter-spacing: 1px;
-    width: 110%;
-}
-.Customers_item_div_text h2{
-    color: #a5141a;
-    font-size: 20px;
-    letter-spacing: 1px;
-    padding: 10px 0;
+    padding: 5px 0px;
 }
 .Customers_item_div_text p{
     color: #6b6b6b;
-    font-size: 15px;
-    letter-spacing: 1px;
-    line-height: 25px;
-    padding: 5px 0;
-    width: 90%;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 31px;
+    text-align: center;
+    padding: 1px 20px;
+    width: 95%;
 }
 .Customers_item_div_text a{
     text-decoration: none;
