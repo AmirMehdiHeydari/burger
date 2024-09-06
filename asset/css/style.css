@@ -460,11 +460,21 @@ header{
     
     
 }
-
+.Customers_item_div_img{
+    display: flex;
+    margin: 0 200px;
+}
 .Customers_item_div_img img{
-   width: 120px;
-   padding: 0 220px;
+   width: 80px;
+   margin: 0 15px;
+   border-radius: 520px;
    
+}
+.Customers_item_div_img span{
+    color: #a5141a;
+    font-size: 20px;
+    padding: 20px 0;
+    letter-spacing: 1px;
 }
 .Customers_item_div_text{
     padding: 5px 0px;
