@@ -496,4 +496,52 @@ header{
 }
 /* end Customers */
 /* start free */
+.free{
+    padding: 100px 0;
+}
+.free_box{ 
+    width: 85%;
+    margin: 0 auto;
+}
+.free_items{
+    display: flex;
+    justify-content: space-between;
+}
+.free_item_text{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: start;
+   padding: 70px 0;
+}
+.free_item_text img{
+    width: 430px;
+}
+.free_item_red{
+    width: 40%;
+    border-radius: 15px;
+    padding: 60px 0px;
+}
+.free_item_red h2{
+    font-size: 50px;
+    letter-spacing: 1px;
+    width: 80%;
+    padding: 15px 0;
+}
+.free_text{
+    padding: 15px 0;
+}
+.free_item_red h3{
+    color: #a5141a;
+    font-size: 25px;
+   letter-spacing: 2px;
+   padding: 20px 0;
+   
+}
+.free_item_red p{
+    font-size: 15px;
+    color: #6b6b6b;
+
+    letter-spacing: 1px;
+}
 /* end free */
