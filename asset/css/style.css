@@ -345,6 +345,11 @@ header{
     padding: 25px 0;
     margin-top: 20px;
     display: flex;
+    border: 1px solid transparent;
+    transition-duration: 0.5s;
+}
+.today_item_div:hover{
+    border-color: #e0bb16;
 }
 .today_item_div_img img{
    width: 220px;
