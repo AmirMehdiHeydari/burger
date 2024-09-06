@@ -416,8 +416,10 @@ header{
 /* end favorite */
 /* start Customers */
 .Customers{
-    background-color: #f8f8f8;
-    padding: 130px 0;
+    background-image: url(../image/special-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 140px 0;
 }
 .Customers_box{
     width: 85%;
@@ -428,12 +430,12 @@ header{
 }
 .Customers_item_text h3{
     color: #a5141a;
-    font-size: 25px;
-    padding: 20px 0;
+    font-size: 27px;
+    padding: 40px 0;
 }
 .Customers_item_text h2{
     color: #0e0e0e;
-    font-size: 45px;
+    font-size: 50px;
     letter-spacing: 1px;
     padding: 20px 0;
 }
