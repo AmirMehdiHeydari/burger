@@ -339,6 +339,7 @@ header{
 }
 .today_item_div{
     background-color: #fff;
+    box-shadow: rgba(149, 157, 165, .2) 0 8px 24px;
     border-radius: 15px;
     width: 49%;
     padding: 25px 0;
