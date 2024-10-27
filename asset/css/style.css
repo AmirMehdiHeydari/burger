@@ -578,3 +578,30 @@ header{
 }
 
 /* end best */
+/* start footer */
+.footer{
+    background-color: #e00f0f;
+    padding: 100px 0;
+}
+.footer-box{
+    background-color: yellow;
+    width: 85%;
+    margin: 0 auto;
+}
+.footer-items{
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-item{
+    background-color: aqua;
+    width: 24%;
+}
+.footer-item-title{
+    color: #0e0e0e;
+    font-size: 20px;
+    padding-bottom: 25px;
+    letter-spacing: 1px;
+
+}
+/* end footer */
