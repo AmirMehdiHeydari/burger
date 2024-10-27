@@ -604,6 +604,7 @@ header{
     padding-bottom: 25px;
     letter-spacing: 1px;
 }
+
 .footer-item-about p{
     color: #6b6b6b;
     font-size: 15px;
@@ -616,7 +617,7 @@ header{
     color: #131313;
     font-size: 15px;
     padding: 0 9px;
-    line-height: 10px;
+    line-height: 30px;
 }
 .footer-item-about ul{
     color: #6b6b6b;
@@ -634,6 +635,10 @@ header{
 }
 .footer-ul :hover{
     color: #a5141a;
+    text-decoration: underline;
 }
-
+.footer-li{
+    list-style: none;
+    display: flex;
+}
 /* end footer */
