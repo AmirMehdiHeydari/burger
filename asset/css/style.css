@@ -584,12 +584,10 @@ header{
     padding: 100px 0;
 }
 .footer-box{
-    background-color: yellow;
     width: 85%;
     margin: 0 auto;
 }
 .footer-items{
-    background-color: pink;
     display: flex;
     justify-content: space-between;
 }
@@ -605,7 +603,6 @@ header{
     padding: 0 9px;
     padding-bottom: 25px;
     letter-spacing: 1px;
-
 }
 .footer-item-about p{
     color: #6b6b6b;
@@ -620,13 +617,23 @@ header{
     font-size: 15px;
     padding: 0 9px;
     line-height: 10px;
-
 }
 .footer-item-about ul{
     color: #6b6b6b;
     font-size: 15px;
     margin: 0 20px;
-    line-height: 29px;
+    line-height: 35px;
     letter-spacing: 2px;
 }
+.footer-item-about a{
+    color: #000000;
+    text-decoration: none;
+}
+.footer-ul{
+    list-style: none;
+}
+.footer-ul :hover{
+    color: #a5141a;
+}
+
 /* end footer */
