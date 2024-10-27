@@ -580,7 +580,6 @@ header{
 /* end best */
 /* start footer */
 .footer{
-    background-color: #e00f0f;
     padding: 100px 0;
 }
 .footer-box{
@@ -592,7 +591,6 @@ header{
     justify-content: space-between;
 }
 .footer-item{
-    background-color: rgb(249, 247, 238);
     width: 24%;
     height: 300px;
     padding: 20px 0;
