@@ -594,14 +594,31 @@ header{
     justify-content: space-between;
 }
 .footer-item{
-    background-color: aqua;
+    background-color: rgb(249, 247, 238);
     width: 24%;
+    height: 300px;
+    padding: 20px 0;
 }
 .footer-item-title{
     color: #0e0e0e;
     font-size: 20px;
+    padding: 0 9px;
     padding-bottom: 25px;
     letter-spacing: 1px;
+
+}
+.footer-item-about p{
+    color: #6b6b6b;
+    font-size: 15px;
+    padding: 0 9px;
+    letter-spacing: 2px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.footer-item-about span{
+    color: #131313;
+    font-size: 15px;
+    padding: 0 9px;
 
 }
 /* end footer */
