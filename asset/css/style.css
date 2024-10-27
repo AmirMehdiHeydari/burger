@@ -619,6 +619,14 @@ header{
     color: #131313;
     font-size: 15px;
     padding: 0 9px;
+    line-height: 10px;
 
+}
+.footer-item-about ul{
+    color: #6b6b6b;
+    font-size: 15px;
+    margin: 0 20px;
+    line-height: 29px;
+    letter-spacing: 2px;
 }
 /* end footer */
