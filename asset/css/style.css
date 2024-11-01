@@ -642,28 +642,41 @@ header{
 /* end footer */
 /* start reserved */
 .reserved{
-    background-color: #a5141a;
+    border-top: 1px solid #6b6b6b33;
     padding: 20px 0;
 }
 .reserved_box{
-    background-color: yellow;
     width: 85%;
     margin: 0 auto;
+    margin-top: 30px;
     display: flex;
     justify-content: space-between;
 }
 .reserved_left{
-    background-color: blue;
     width: 40%;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 1px;
 }
 .reserved_right{
-    background-color: rgb(16, 173, 204);
     width: 30%;
+   
 }
 .reserved_right ul{
     display: flex;
     justify-content: space-between;
     list-style: none;
+    line-height: 1px;
     
+    
+}
+.reserved_right li{
+    color: #141212;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.reserved_right a{
+    text-decoration: none;
+    color: #141212;
 }
 /* end reserved */
