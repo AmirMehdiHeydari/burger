@@ -640,3 +640,30 @@ header{
     display: flex;
 }
 /* end footer */
+/* start reserved */
+.reserved{
+    background-color: #a5141a;
+    padding: 20px 0;
+}
+.reserved_box{
+    background-color: yellow;
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.reserved_left{
+    background-color: blue;
+    width: 40%;
+}
+.reserved_right{
+    background-color: rgb(16, 173, 204);
+    width: 30%;
+}
+.reserved_right ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    
+}
+/* end reserved */
