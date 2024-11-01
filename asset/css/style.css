@@ -4,7 +4,6 @@
 }
 body{
     font-family: "Bebas Neue", sans-serif;
-    height: 9000px;
 
 }
 .fontsan{
@@ -580,7 +579,7 @@ header{
 /* end best */
 /* start footer */
 .footer{
-    padding: 100px 0;
+    padding: 80px 0;
 }
 .footer-box{
     width: 85%;
@@ -649,6 +648,7 @@ header{
     width: 85%;
     margin: 0 auto;
     margin-top: 30px;
+    margin-bottom: 30px;
     display: flex;
     justify-content: space-between;
 }
